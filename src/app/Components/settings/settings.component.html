@@ -1,1 +1,107 @@
-<p>settings works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="settingcss.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<style>
+    .form-error {
+border: 2px solid red;
+}
+
+</style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="primarynavigation">
+      <div class="d-flex">
+        <div class="sidebar">
+          <a class="active" href="#">Dashboard</a>
+          <a href="#">Take Assessment</a>
+          <a href="#">Allocated Assessment</a>
+          <a href="#">Result</a>
+          <a href="#">Team Members</a>
+          <a href="#">Settings</a>
+          <a href="#">Logout</a>
+        </div>
+        <div class="content">
+          <!-- Your page content goes here -->
+        </div>
+      </div>
+    </div>
+    
+    <div class="topbar">
+      
+    </div>
+
+    <div class="profile"></div>
+    <div class="background"></div>
+    <!-- /*userid and his name */-->
+    <div class="userid">2358-Mahendra modi</div>
+    <div class="desiganation">Senior Associate - IT Application Development </div>
+    <div>
+    <button class="my-button"><span class="button-text">Edit me</span></button>
+</div>
+
+    <div class="person1"></div>
+
+    <span class="titperson">Personal</span>
+    <div class="name">First name</div>
+    <div class="lname">Last name</div>
+    <div class="dept">Department</div>
+    <div class="dob">Date of Birth</div>
+    <div class="gender">Gender</div>
+    <div class="education">Education level</div>
+   
+    <form>
+        <input type="text" id="firstName" name="firstName" required>
+        <input type="text" id="lastname" name="LASTNAME" required>
+        <select id="department" name="department" required>
+          <option value="">-- Please select a department --</option>
+          <option value="sales">Sales</option>
+          <option value="marketing">Marketing</option>
+          <option value="hr">Human Resources</option>
+          <option value="it">Information Technology</option>
+        </select>
+        <input type="date" id="date" name="date" required>
+        <select id="gender" name="gender" required>
+          <option value="">-- Please select your gender --</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="nonbinary">Non-binary</option>
+        </select>
+        <input type="text" id="educationlevel" name="educationLevel" required>
+        <button id="submitbtn" type="submit">Submit</button>
+      </form>
+      <div class="contactdetails">Contact Details</div>
+       <div class="email">Email</div>
+       <div class="phonenumber">Phone Number</div>
+       <div class="location">location</div>
+      <div class="addre">Address</div>
+    <div class="person2">
+      <form >
+        <input type="email" id="email" name="email" required>
+        <input type="number" id="phonenumber" name="phonenumber" required>
+        <select id="location" name="location" required>  
+          <option value="sales">Chennai</option>
+          <option value="marketing">Bangalore</option>
+          <option value="hr">Noida</option>
+          <option value="it">Coimbature</option>
+        </select>
+        <input type="text" id="addresssd" name="addresss" required>
+      </form>
+    </div>
+    <div class="changepass">change password</div>
+
+    <div class="profilephoto"></div>
+
+    <div class="profileimg"></div>
+    
+</body>
+</html>

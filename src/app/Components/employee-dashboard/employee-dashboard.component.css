@@ -1,21 +1,14 @@
 body {
     /* Employee_Dashboard */
-
-
     position: relative;
     width: 1536px;
     height: 864px;
-    /* width: 80%; */
-    overflow-x: hidden;
-
     background: #FFFFFF;
     font-family: 'Manrope';
 }
 
 .OverviewTitle {
     /* Overview */
-
-
     position: absolute;
     width: 105px;
     height: 33px;
@@ -735,7 +728,7 @@ body {
     left: 32px;
     top: 24px;
 
-    background: url(/src/assets/EmployeeDashboardImages/HRspocpic.svg);
+    background: url(src/assets/EmployeeDashboardImages/HRspocpic.svg);
     border-radius: 100px;
     height: 137px;
     width: 137px;
@@ -854,7 +847,7 @@ body {
     left: 30px;
     top: 97px;
 
-    background: url(/src/assets/EmployeeDashboardImages/ColleagueMembers1.svg);
+    background: url(src/assets/EmployeeDashboardImages/ColleagueMembers1.svg);
 }
 
 .ColleagueMembers1ID {
@@ -941,7 +934,7 @@ body {
     left: 30px;
     top: 228px;
 
-    background: url(/src/assets/EmployeeDashboardImages/ColleagueMembers2.svg);
+    background: url(src/assets/EmployeeDashboardImages/ColleagueMembers2.svg);
 }
 
 .ColleagueMembers2ID {
@@ -993,7 +986,7 @@ body {
     left: 30px;
     top: 359px;
 
-    background: url(/src/assets/EmployeeDashboardImages/ColleagueMembers3.svg);
+    background: url(src/assets/EmployeeDashboardImages/ColleagueMembers3.svg);
 }
 
 .ColleagueMembers4 {
@@ -1003,7 +996,7 @@ body {
     left: 30px;
     top: 489px;
 
-    background: url(/src/assets/EmployeeDashboardImages/ColleagueMembers4.svg);
+    background: url(src/assets/EmployeeDashboardImages/ColleagueMembers4.svg);
 }
 
 .Sidebar {
@@ -1148,7 +1141,7 @@ body {
     top: 162px;
     border-radius: 85px;
     /* for Black Layout */
-    background: url(/src/assets/EmployeeDashboardImages/ProfilePicture.svg);
+    background: url(src/assets/EmployeeDashboardImages/ProfilePicture.svg);
 
 }
 
@@ -1237,14 +1230,13 @@ body {
 
 .Reward1 {
     /* reward 1 */
-
     position: absolute;
     width: 50px;
     height: 50px;
     left: 960px;
     top: 417px;
 
-    background: url(/src/assets/EmployeeDashboardImages/Reward1.svg);
+    background: url(src/assets/EmployeeDashboardImages/Reward1.svg);
 }
 
 .Reward2 {
@@ -1256,7 +1248,7 @@ body {
     left: 1122px;
     top: 417px;
 
-    background: url(/src/assets/EmployeeDashboardImages/Reward2.svg);
+    background: url(src/assets/EmployeeDashboardImages/Reward2.svg);
 }
 
 .Reward3 {
@@ -1269,7 +1261,7 @@ body {
     left: 1283px;
     top: 417px;
 
-    background: url(/src/assets/EmployeeDashboardImages/Reward3.svg);
+    background: url(src/assets/EmployeeDashboardImages/Reward3.svg);
 }
 
 .SkillLevel {
@@ -1359,9 +1351,4 @@ body {
     top: 24px;
     background: url(/src/assets/EmployeeDashboardImages/ReportingManagerPic.svg);
     border-radius: 100px;
-}
-
-.html {
-    width: 1920px;
-    height: 1080px;
 }

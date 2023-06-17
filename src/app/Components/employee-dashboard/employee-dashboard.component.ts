@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Route } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employee-dashboard',
