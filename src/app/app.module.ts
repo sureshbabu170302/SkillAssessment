@@ -9,6 +9,9 @@ import { ResultAndReviewComponent } from './Components/result-and-review/result-
 import { TeamMembersComponent } from './Components/team-members/team-members.component';
 import { SettingsComponent } from './Components/settings/settings.component';
 import { TakeAssessmentComponent } from './Components/take-assessment/take-assessment.component';
+import { RegisterComponent } from './register/register.component';
+import {HttpClientModule} from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,10 +23,14 @@ import { TakeAssessmentComponent } from './Components/take-assessment/take-asses
     TeamMembersComponent,
     SettingsComponent,
     TakeAssessmentComponent,
+    RegisterComponent
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

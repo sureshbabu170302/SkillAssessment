@@ -7,10 +7,11 @@ import { ResultAndReviewComponent } from './Components/result-and-review/result-
 import { TeamMembersComponent } from './Components/team-members/team-members.component';
 import { AllocatedAssessmentComponent } from './Components/allocated-assessment/allocated-assessment.component';
 import { TakeAssessmentComponent } from './Components/take-assessment/take-assessment.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
 
-  { path: '', redirectTo: 'Result', pathMatch: 'full' },
+  { path: '', redirectTo: 'Register', pathMatch: 'full' },
   { path: 'SignIn', component: SignInComponent },
   { path: 'EmployeeDashboard', component: EmployeeDashboardComponent },
   { path: 'Settings', component: SettingsComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'TeamMembers', component: TeamMembersComponent },
   { path: 'AllocatedAssessment', component: AllocatedAssessmentComponent },
   { path: 'TakeAssessment', component: TakeAssessmentComponent },
+  {path:  'Register',component: RegisterComponent}
   
 ];
 
@@ -26,3 +28,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
